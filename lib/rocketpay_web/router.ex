@@ -10,6 +10,8 @@ defmodule RocketpayWeb.Router do
 
     get "/helloworld", HelloWorldController, :index
 
+    post "/users", UsersController, :create
+
     get "/:filename", WelcomeController, :index
   end
 
