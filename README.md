@@ -1,19 +1,48 @@
+<p align="center">
+ <img src="logo.svg">
+</p>
+
+<br />
+
 # Rocketpay
 
-To start your Phoenix server:
+<br />
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+<p align="center">
+ Rocketpay is a simple API to make bank transactions like deposit, withdraw and transfer between accounts. This project was made during Rocketseat's Next Level Week 4.
+</p>
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Installation
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+First you will need to have these dependencies:
 
-## Learn more
+- Elixir
+- Phoenix
+- PostgreSQL
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Then just run these following commands:
+
+```
+# Clone this repository
+$ git clone git@github.com:ledoctah/rocketpay.git
+
+# Access the folder
+$ cd rocketpay
+
+# Install all dependencies
+$ mix deps.get
+
+# Run migrations
+$ mix ecto.setup
+
+# Start server
+$ mix phx.server
+```
+
+After that, you will be able to access Rocketpay API in ```localhost:4000/api```
+
+## LICENSE
+
+This project is under MIT license.
+
+#### 🚀
